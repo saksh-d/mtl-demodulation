@@ -2,3 +2,8 @@ __pycache__
 data
 models/__pycache__
 utils/__pycache__
+.DS_Store
+checkpoints/.DS_Store
+models/.DS_Store
+results/.DS_Store
+utils/.DS_Store
