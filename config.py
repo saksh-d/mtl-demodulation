@@ -5,8 +5,8 @@ Config file to tune model parameters and waveform parameters.
 CONFIG = {
     # Dataset/Model Params
     "input_length": 800,
-    "L1": 4,   # BPM slots
-    "L2": 2,   # BPSK slots
+    "L1": 4,   # BePM slots
+    "L2": 2,   # BePSK slots
     "dimming_level": 0.5,
 
     # OFDM Settings
@@ -21,14 +21,14 @@ CONFIG = {
     "snr_db_list": [0, 5, 10, 15, 20],
 
     # Sample Sizes
-    "train_samples": 10000,
-    "val_samples": 2000,
-    "test_samples": 2000,
+    "train_samples": 50000,
+    "val_samples": 5000,
+    "test_samples": 5000,
 
     # Runtime
-    "device": "mps",
+    "device": "cuda",
     "epochs": 20,
-    "batch_size": 64,
-    "hidden_dim": 256,
+    "batch_size": 32,
+    "hidden_dim": 32,
 }
 
