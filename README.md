@@ -1,4 +1,4 @@
-# VLC-MTL: Multi-Task Learning for VLC Waveform Demodulation
+# Multi-Task Learning for VLC Waveform Demodulation
 
 This repository contains a modular, PyTorch-based implementation of a multi-task learning (MTL) framework for demodulating mixed carrier communication (MCC) VLC waveforms. It explores phase (BPSK) and position (BPM) classification using shared, split, and cross-stitch network architectures.
 
